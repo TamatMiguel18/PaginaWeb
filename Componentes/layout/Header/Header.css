@@ -1,19 +1,22 @@
 header {
-    background-color: var(--color-primario);
-    color: white;
-    padding: 20px;
-    text-align: center;
-    display: flex;
+  background-color: var(--primario);
+  color: white;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 1.8rem;
 }
 
 nav a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
 }
 
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
-

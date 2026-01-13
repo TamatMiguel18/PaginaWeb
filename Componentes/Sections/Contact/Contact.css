@@ -1,0 +1,13 @@
+.contact {
+  background-color: var(--blanco);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.btn-secondary {
+  background-color: var(--primario);
+  padding: 12px 25px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 15px;
+}
