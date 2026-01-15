@@ -1,0 +1,50 @@
+.hero-kinal {
+    background-color: var(--primario);
+    color: white;
+    padding: 100px 40px;
+    text-align: center;
+}
+
+.hero-kinal h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-kinal p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.seccion {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.fondo-alterno {
+    background-color: var(--fondo);
+}
+
+.grid-programas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.1);
+}
+
+.estadisticas {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.estadisticas h3 {
+    font-size: 2rem;
+    color: var(--primario);
+}

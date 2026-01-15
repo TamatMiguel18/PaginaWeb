@@ -1,79 +1,187 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Fundación Kinal</title>
+    <meta charset="UTF-8">
+    <title>Fundación Kinal</title>
+    <link rel="stylesheet" href="Style/kinal.css">
 
-  <link rel="stylesheet" href="Style/Variables.css">
-  <link rel="stylesheet" href="Style/globals.css">
-  <link rel="stylesheet" href="Componentes/layout/Header/Header.css">
-  <link rel="stylesheet" href="Componentes/layout/Footer/Footer.css">
 </head>
 <body>
 
+<!-- =====================================================
+     HEADER
+===================================================== -->
 <header>
-  <img src="Componentes/image/Logo.png" alt="Logo" width="100" height="100">
-  <nav>
-    <a href="index.html">Inicio</a>
-    <a href="biografia.html">Biografía</a>
-    <a href="#">Carreras</a>
-    <a href="#">Contacto</a>
-  </nav>
+        <img src="https://static.wixstatic.com/media/128120_ee5ccdee60e04a118d1e3759431825ed~mv2.png/v1/fill/w_468,h_496,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/128120_ee5ccdee60e04a118d1e3759431825ed~mv2.png" alt="Logo Fundación Kinal" height="100" width="100">
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="biografia.html">Biografía</a>
+        <a href="#historia">Historia</a>
+        <a href="#programas">Programas</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
 </header>
 
-<main>
-  <section>
-    <h1>Fundación Kinal</h1>
-    <p>
-      Fundación Kinal es una institución educativa que forma jóvenes
-      con excelencia técnica y valores humanos, brindando oportunidades
-      de desarrollo a estudiantes de escasos recursos.
-    </p>
-  </section>
+<!-- =====================================================
+     HERO
+===================================================== -->
+<section class="hero-kinal">
+    <div class="hero-contenido">
+        <h1>Fundación Kinal</h1>
+        <p>
+            Educación técnica, humana y cristiana para transformar
+            la vida de jóvenes guatemaltecos.
+        </p>
+        <a href="#programas" class="btn-primary">Conoce nuestros programas</a>
+    </div>
+</section>
 
-  <section>
+<!-- =====================================================
+     ¿QUÉ ES KINAL?
+===================================================== -->
+<section class="seccion">
+    <h2>¿Qué es Fundación Kinal?</h2>
+
+    <p>
+        Fundación Kinal es una institución educativa sin fines de lucro
+        que ofrece formación integral a jóvenes de escasos recursos.
+    </p>
+
+    <p>
+        A través de programas técnicos, académicos y humanos,
+        Kinal prepara a sus estudiantes para integrarse exitosamente
+        al mundo laboral.
+    </p>
+</section>
+
+<!-- =====================================================
+     HISTORIA
+===================================================== -->
+<section id="historia" class="seccion fondo-alterno">
+    <h2>Nuestra Historia</h2>
+
+    <p>
+        Kinal nace con el objetivo de brindar oportunidades educativas
+        a jóvenes que no tenían acceso a formación técnica profesional.
+    </p>
+
+    <p>
+        Con el paso de los años, la institución ha crecido,
+        ampliando su oferta académica y fortaleciendo alianzas
+        con empresas nacionales e internacionales.
+    </p>
+</section>
+
+<!-- =====================================================
+     MISIÓN
+===================================================== -->
+<section class="seccion">
     <h2>Misión</h2>
-    <p>
-      Formar integralmente a jóvenes a través de educación técnica,
-      humana y cristiana.
-    </p>
-  </section>
 
-  <section>
+    <p>
+        Formar integralmente a jóvenes mediante una educación
+        técnica, humana y cristiana, preparándolos para la vida
+        profesional y personal.
+    </p>
+</section>
+
+<!-- =====================================================
+     VISIÓN
+===================================================== -->
+<section class="seccion fondo-alterno">
     <h2>Visión</h2>
-    <p>
-      Ser una institución líder en formación técnica y humana en Guatemala.
-    </p>
-  </section>
 
-  <section>
-    <h2>Programas Educativos</h2>
+    <p>
+        Ser una institución líder en formación técnica en Guatemala,
+        reconocida por su calidad académica y compromiso social.
+    </p>
+</section>
+
+<!-- =====================================================
+     VALORES
+===================================================== -->
+<section class="seccion">
+    <h2>Valores</h2>
+
     <ul>
-      <li>Educación Básica</li>
-      <li>Carreras Técnicas</li>
-      <li>Técnico Superior</li>
-      <li>Capacitación Continua</li>
+        <li>Responsabilidad</li>
+        <li>Respeto</li>
+        <li>Disciplina</li>
+        <li>Solidaridad</li>
+        <li>Honestidad</li>
     </ul>
-  </section>
+</section>
 
-  <section>
+<!-- =====================================================
+     PROGRAMAS
+===================================================== -->
+<section id="programas" class="seccion fondo-alterno">
+    <h2>Programas Educativos</h2>
+
+    <div class="grid-programas">
+        <div class="card">
+            <h3>Educación Básica</h3>
+            <p>Formación académica integral.</p>
+        </div>
+
+        <div class="card">
+            <h3>Carreras Técnicas</h3>
+            <p>Orientadas al mercado laboral.</p>
+        </div>
+
+        <div class="card">
+            <h3>Técnico Superior</h3>
+            <p>Especialización técnica avanzada.</p>
+        </div>
+
+        <div class="card">
+            <h3>Capacitación Continua</h3>
+            <p>Cursos y talleres profesionales.</p>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================
+     IMPACTO
+===================================================== -->
+<section class="seccion">
     <h2>Impacto</h2>
-    <p>
-      Miles de jóvenes han sido beneficiados con formación académica
-      y oportunidades laborales gracias a Kinal.
-    </p>
-  </section>
 
-  <section>
-    <h2>¿Por qué elegir Kinal?</h2>
-    <p>
-      Educación de calidad, valores, disciplina y conexión con el mundo laboral.
-    </p>
-  </section>
-</main>
+    <div class="estadisticas">
+        <div>
+            <h3>+6,000</h3>
+            <p>Estudiantes formados</p>
+        </div>
 
+        <div>
+            <h3>+30</h3>
+            <p>Carreras técnicas</p>
+        </div>
+
+        <div>
+            <h3>85%</h3>
+            <p>Inserción laboral</p>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================
+     CONTACTO
+===================================================== -->
+<section id="contacto" class="seccion fondo-alterno">
+    <h2>Contacto</h2>
+
+    <p><strong>Dirección:</strong> Ciudad de Guatemala</p>
+    <p><strong>Teléfono:</strong> +502 0000-0000</p>
+    <p><strong>Correo:</strong> info@kinal.org.gt</p>
+</section>
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
 <footer>
-  <p>© 2026 Fundación Kinal - Guatemala</p>
+    <p>© 2026 Fundación Kinal - Guatemala</p>
 </footer>
 
 </body>
